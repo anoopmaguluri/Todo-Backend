@@ -34,12 +34,12 @@ A full-stack To-Do application built with a **React Native (Expo)** frontend and
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/anoopmaguluri/Todo-App.git
-cd Todo-App
+git clone https://github.com/anoopmaguluri/Todo-Backend.git
+cd Todo-Backend
 ```
 
 ### 2. Backend Setup
-Navigate to the backend directory:
+Navigate to the Root directory:
 
 #### Install Dependencies
 ```bash
@@ -65,9 +65,14 @@ The backend will run at `http://localhost:6001`.
 ---
 
 ### 3. Frontend Setup
+```bash
+git clone https://github.com/anoopmaguluri/Todo-App.git
+cd Todo-App
+```
+
 Navigate to the frontend directory:
 ```bash
-cd ../frontend
+cd Todo-FrontEnd
 ```
 
 #### Install Dependencies
@@ -92,7 +97,7 @@ yarn start
 ```
 
 ### Login Details
-`{"username":"testuser","password":"123456"}`
+`{"username":"test","password":"admin"}`
 
 Choose a platform (Android, iOS, or Web) to run the app.
 
